@@ -1,132 +1,138 @@
-# Slotted NACA 23012 Airfoil Design and Experimental Validation
+# Slotted NACA 23012 Airfoil Design, Fabrication and Wind Tunnel Testing
+
+Experimental investigation of a slotted NACA 23012 airfoil including CAD design, 3D printing fabrication, Reynolds number scaling analysis, and subsonic wind tunnel testing for aerodynamic performance evaluation.
+
+---
 
 ## Project Overview
 
-This project focused on the design, simulation, fabrication, and experimental validation of a slotted NACA 23012 airfoil to investigate the influence of slot geometry on aerodynamic performance and high-lift characteristics.
+High-lift devices are critical components in aircraft aerodynamic design. Slotted airfoils improve aerodynamic performance by delaying flow separation and increasing lift generation at higher angles of attack.
 
-The study combined computational analysis with wind tunnel testing to compare simulated and experimental aerodynamic behavior.
+This project involved:
+
+- Designing a slotted NACA 23012 airfoil
+- Creating a CAD model using Creo
+- Fabricating the airfoil using 3D printing
+- Conducting subsonic wind tunnel experiments
+- Measuring aerodynamic forces
+- Evaluating lift and drag characteristics
 
 ---
 
 ## Objectives
 
-* Design a slotted NACA 23012 airfoil.
-* Analyze aerodynamic performance using simulation tools.
-* Fabricate a physical prototype using additive manufacturing.
-* Conduct wind tunnel testing.
-* Validate simulation results through experimental measurements.
+- Design a slotted NACA 23012 airfoil
+- Fabricate a test-ready aerodynamic model
+- Perform wind tunnel testing
+- Measure lift and drag characteristics
+- Evaluate aerodynamic performance
 
 ---
 
-## Airfoil Design
+## CAD Model
 
-### Airfoil Configuration
+![CAD Model](images/creo-model.png)
 
-* NACA 23012
-* Slotted Airfoil Geometry
-* High-Lift Configuration
-
-### CAD Development
-
-* Creo Parametric
+The slotted airfoil geometry was developed using Creo Parametric and optimized for experimental testing.
 
 ---
 
-## Simulation Methodology
+## Fabricated Airfoil
 
-### Software
+![Fabricated Airfoil](images/airfoil-fabrication.png)
 
-* ANSYS Workbench
-
-### Analysis Performed
-
-* Aerodynamic Performance Analysis
-* Structural Assessment
-* Flow Behavior Evaluation
+The airfoil was manufactured using 3D printing technology and finished to improve surface quality before testing.
 
 ---
 
-## Fabrication
+## Wind Tunnel Facility
 
-The airfoil prototype was manufactured using Ultimaker 3D printing technology and prepared for wind tunnel testing.
+![Wind Tunnel Facility](images/wind-tunnel-facility.png)
+
+Testing was conducted in a subsonic wind tunnel facility.
 
 ---
 
 ## Wind Tunnel Testing
 
-### Test Conditions
+![Wind Tunnel Testing](images/wind-tunnel-testing.png)
 
-| Parameter           | Value      |
-| ------------------- | ---------- |
-| Reynolds Number     | 3.27 × 10⁵ |
-| Freestream Velocity | 21.56 m/s  |
+The fabricated airfoil was mounted inside the test section and evaluated under controlled airflow conditions.
 
-### Experimental Measurements
+---
 
-At 5° Angle of Attack:
+## Experimental Parameters
 
-| Parameter  | Value  |
-| ---------- | ------ |
-| Lift       | 7.27 N |
-| Drag       | 0.98 N |
+| Parameter | Value |
+|------------|----------|
+| Airfoil | NACA 23012 |
+| Type | Slotted Airfoil |
+| Wind Speed | 21.56 m/s |
+| Reynolds Number | 327,000 |
+| Frequency | 40 Hz |
+| RPM | 798 |
+| Angle of Attack | 0°–5° |
+
+---
+
+## Sample Experimental Results
+
+| Parameter | Value |
+|------------|----------|
+| Lift | 7.27 N |
+| Drag | 0.98 N |
 | Side Force | 1.24 N |
+| Pitching Moment | 0.08 Nm |
+| Rolling Moment | 0.89 Nm |
+| Yawing Moment | 0.47 Nm |
 
 ---
 
-## Key Contributions
+## Key Findings
 
-* Developed airfoil geometry and CAD model.
-* Performed aerodynamic simulations using ANSYS Workbench.
-* Fabricated prototype using additive manufacturing.
-* Conducted subsonic wind tunnel testing.
-* Compared experimental data with simulation predictions.
-* Evaluated the effect of slot geometry on lift enhancement and flow stability.
-
----
-
-## Tools & Technologies
-
-* Creo Parametric
-* ANSYS Workbench
-* Wind Tunnel Testing
-* 3D Printing
-* Aerodynamic Analysis
+- Slotted airfoil delayed flow separation.
+- Lift generation improved compared to conventional configurations.
+- Aerodynamic stability improved during testing.
+- Fabrication accuracy contributed to reliable experimental results.
+- Wind tunnel testing validated aerodynamic performance.
 
 ---
 
-## Results
+## Skills Demonstrated
 
-The project successfully demonstrated:
-
-* Lift enhancement through slot configuration
-* Experimental validation of simulation results
-* Practical application of aerodynamic design principles
-* Complete design-to-testing engineering workflow
-
----
-
-## Skills Developed
-
-* Aerodynamics
-* Wind Tunnel Testing
-* Experimental Testing
-* Finite Element Analysis (FEA)
-* Aerospace Engineering
+- Aerodynamics
+- Wind Tunnel Testing
+- Airfoil Design
+- Experimental Analysis
+- Aerospace Engineering
+- CAD Modeling
+- Creo Parametric
+- 3D Printing
+- Data Analysis
 
 ---
 
-## Future Work
+## Project Report
 
-* Multi-angle performance evaluation
-* CFD-based flow visualization
-* Alternative slot geometries
-* High-Reynolds-number testing
+Complete project documentation:
+
+[Slotted Airfoil Report](report/slotted-airfoil-report.pdf)
 
 ---
 
-## Author
+## Authors
 
-**Laxmipriya Murmu**
-
-B.Tech Aerospace Engineering
+Laxmipriya Murmu  
+B.Tech Aerospace Engineering  
 Lovely Professional University
+
+Project Team:
+
+- Laxmipriya Murmu
+- Gowtham Kumar Chukka
+- Gowtham Kumar Talla
+- Mounish Damera
+
+Faculty Guide:
+
+- Dr. Balaji Ravi
